@@ -11,9 +11,9 @@ Complete the given program with string declaration/initialization & read/print t
 #include <stdio.h>
 int main() 
 {
-                      //Declare the string
+char str[50];                      //Declare the string
 printf("Enter a String: ")
-                      //read the string from user
-                      //Print the string
+scanf("%s",str);
+printf("the entered string is %s",str);
 return 0;
 }
